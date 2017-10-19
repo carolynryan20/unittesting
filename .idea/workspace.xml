@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8fb0d9b-83ca-4fc3-9847-f7a151ea9480" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_this.py" afterPath="$PROJECT_DIR$/test/test_this.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_this_again.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/this.py" afterPath="$PROJECT_DIR$/src/this.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,18 +17,30 @@
       <file leaf-file-name="this.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/this.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_this.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_this_again.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_this_again.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_this.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_this.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -38,8 +51,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -70,13 +83,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/this.py" />
         <option value="$PROJECT_DIR$/test/TestThis.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/test/TestLoader.py" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/test/test_this.py" />
+        <option value="$PROJECT_DIR$/src/this.py" />
+        <option value="$PROJECT_DIR$/test/test_this_again.py" />
       </list>
     </option>
   </component>
@@ -281,9 +295,6 @@
     <history-entry file="Nosetests_for_TestThis_TestThis - 2017.10.19 at 10h 21m 30s.xml">
       <configuration name="Nosetests for TestThis.TestThis" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_TestThis_TestThis_testProduct - 2017.10.19 at 10h 21m 00s.xml">
-      <configuration name="Nosetests for TestThis.TestThis.testProduct" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_for_test_this_TestThis - 2017.10.19 at 11h 04m 06s.xml">
       <configuration name="Nosetests for test_this.TestThis" configurationId="tests" />
     </history-entry>
@@ -303,6 +314,9 @@
       <configuration name="UnitTests for TestThis" configurationId="tests" />
     </history-entry>
     <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 11h 04m 12s.xml">
+      <configuration name="UnitTests for TestThis" configurationId="tests" />
+    </history-entry>
+    <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 11h 11m 21s.xml">
       <configuration name="UnitTests for TestThis" configurationId="tests" />
     </history-entry>
   </component>
@@ -370,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/this.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -388,16 +394,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/this.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_this.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="52">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_this_again.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

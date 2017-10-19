@@ -5,7 +5,7 @@ def nowagain():
     return "Hey there"
 
 def retTrue():
-    return False
+    return True
 
 def product(x,y):
     return x*y
