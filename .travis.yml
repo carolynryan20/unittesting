@@ -12,4 +12,4 @@ after_success:
   - coveralls
 
 script:
-  - python3 -m unittest discover test
+  - python3 -m unittest Test*.py
