@@ -24,7 +24,6 @@ class TestThis(unittest.TestCase):
         result = this.product(self.x, self.y)
         self.assertEqual(result, 80)
 
-    @unittest.expectedFailure
     def testRetTrue(self):
         result = this.retTrue()
         self.assertTrue(result)
