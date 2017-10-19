@@ -1,4 +1,9 @@
 import unittest
+
+#TODO anyone know how to do this better than what it is now?
+import sys, os
+sys.path.insert(0, os.path.abspath('..'))
+
 from src import this
 
 class TestThis(unittest.TestCase):
