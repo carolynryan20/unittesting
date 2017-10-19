@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8fb0d9b-83ca-4fc3-9847-f7a151ea9480" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/TestLoader.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/TestThis.py" afterPath="$PROJECT_DIR$/test/test_this.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.coverage" afterPath="$PROJECT_DIR$/.coverage" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestThis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestThis.py">
+      <file leaf-file-name="test_this.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_this.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -40,8 +41,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +136,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestLoader">
-    <configuration name="Nosetests for TestThis.TestThis" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.UnitTests for TestThis">
+    <configuration name="Nosetests for test.test_this.TestThis" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -148,10 +149,10 @@
       <module name="unittesting" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestThis.TestThis&quot;" />
+      <option name="_new_target" value="&quot;test.test_this.TestThis&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for TestThis.TestThis.testDoIt" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+    <configuration name="Nosetests for test.test_this.TestThis.testDoIt" type="tests" factoryName="Nosetests" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -163,10 +164,10 @@
       <module name="unittesting" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestThis.TestThis.testDoIt&quot;" />
+      <option name="_new_target" value="&quot;test.test_this.TestThis.testDoIt&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for TestThis.TestThis.testNowAgain" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_this.TestThis" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -178,10 +179,10 @@
       <module name="unittesting" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestThis.TestThis.testNowAgain&quot;" />
+      <option name="_new_target" value="&quot;test_this.TestThis&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for TestThis.TestThis.testProduct" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_this.TestThis.testDoIt" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -193,10 +194,10 @@
       <module name="unittesting" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestThis.TestThis.testProduct&quot;" />
+      <option name="_new_target" value="&quot;test_this.TestThis.testDoIt&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests in TestThis.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in test_this.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -208,7 +209,7 @@
       <module name="unittesting" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/TestThis.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_this.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="TestLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -240,25 +241,25 @@
       <module name="unittesting" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestThis.TestThis&quot;" />
+      <option name="_new_target" value="&quot;test.test_this.TestThis&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis.testDoIt" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test.test_this.TestThis.testDoIt" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.UnitTests for TestThis" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis.testNowAgain" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis.testProduct" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in TestThis.py" />
-      <item index="6" class="java.lang.String" itemvalue="Python.TestLoader" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test.test_this.TestThis" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_this.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TestLoader" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests for test_this.TestThis.testDoIt" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetests for test_this.TestThis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TestLoader" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestThis.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis.testProduct" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for TestThis.TestThis.testNowAgain" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_this.TestThis" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_this.TestThis.testDoIt" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TestLoader" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_this.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test.test_this.TestThis" />
       </list>
     </recent_temporary>
   </component>
@@ -285,17 +286,14 @@
     <history-entry file="Nosetests_for_TestThis_TestThis_testProduct - 2017.10.19 at 10h 21m 00s.xml">
       <configuration name="Nosetests for TestThis.TestThis.testProduct" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_for_test_this_TestThis - 2017.10.19 at 11h 04m 06s.xml">
+      <configuration name="Nosetests for test_this.TestThis" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_this_TestThis_testDoIt - 2017.10.19 at 11h 03m 52s.xml">
+      <configuration name="Nosetests for test_this.TestThis.testDoIt" configurationId="tests" />
+    </history-entry>
     <history-entry file="Nosetests_in_TestThis_py - 2017.10.19 at 10h 21m 52s.xml">
       <configuration name="Nosetests in TestThis.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 10h 19m 52s.xml">
-      <configuration name="UnitTests for TestThis" configurationId="tests" />
-    </history-entry>
-    <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 10h 20m 09s.xml">
-      <configuration name="UnitTests for TestThis" configurationId="tests" />
-    </history-entry>
-    <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 10h 20m 39s.xml">
-      <configuration name="UnitTests for TestThis" configurationId="tests" />
     </history-entry>
     <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 10h 21m 07s.xml">
       <configuration name="UnitTests for TestThis" configurationId="tests" />
@@ -304,6 +302,9 @@
       <configuration name="UnitTests for TestThis" configurationId="tests" />
     </history-entry>
     <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 10h 22m 52s.xml">
+      <configuration name="UnitTests for TestThis" configurationId="tests" />
+    </history-entry>
+    <history-entry file="UnitTests_for_TestThis - 2017.10.19 at 11h 04m 12s.xml">
       <configuration name="UnitTests for TestThis" configurationId="tests" />
     </history-entry>
   </component>
@@ -387,10 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestThis.py">
+    <entry file="file://$PROJECT_DIR$/test/test_this.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -399,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
